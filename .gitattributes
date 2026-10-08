@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# 二进制文件：不做换行转换，不做文本 diff
+*.exe binary
+*.dll binary
+*.ico binary
+*.png binary
+*.zip binary

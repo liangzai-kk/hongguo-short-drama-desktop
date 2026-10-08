@@ -1,0 +1,19 @@
+# 二进制安装包不进 git 历史：单文件约 169 MB，超过托管平台单文件上限（100 MB），
+# 提交会被拒绝，且会把仓库体积永久撑大。改由 Releases 附件分发。
+download/*.exe
+download/*.zip
+download/*.7z
+download/*.blockmap
+download/*.dmg
+download/*.AppImage
+!download/.gitkeep
+
+# 构建产物与日志
+*.log
+dist/
+out/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
