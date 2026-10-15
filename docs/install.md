@@ -12,7 +12,12 @@
 
 ## 二、安装
 
-1. 从本仓库 **Releases** 页面下载 `红果免费短剧.exe`。
+1. 下载安装包，两个渠道任选其一：
+
+   - **国内加速下载**（推荐，国内网络可直连）：
+     [点击下载 红果免费短剧-Setup-0.1.4.exe](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.4/hongguo-short-drama-0.1.4.exe)
+   - [GitHub 发布页](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)：页面打不开或下载过慢时，改用上面的加速下载。
+
 2. 双击运行。
 3. 若出现「Windows 已保护你的电脑」蓝色提示，点击 **更多信息** → **仍要运行**。
 4. 选择安装目录（默认安装到当前用户目录下，无需管理员权限）。
@@ -35,6 +40,7 @@
 | 被杀毒软件隔离 | 将安装目录加入白名单后重装 |
 | 启动后白屏 | 关闭程序后重新启动一次 |
 | 画面卡顿 | 在设置中降低默认清晰度 |
+| 设置页更新下载失败 | 用上文的「国内加速下载」手动下载后覆盖安装 |
 
 ## 五、升级
 

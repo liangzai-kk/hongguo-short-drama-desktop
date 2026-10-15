@@ -2,7 +2,7 @@
 
 [![下载](https://img.shields.io/badge/下载-红果免费短剧.exe-FE3846?style=for-the-badge)](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)
 
-**[→ 下载最新版](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)**　Windows 10 1809+ · x64 · 约 169 MB
+**[→ 下载最新版（国内加速）](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.4/hongguo-short-drama-0.1.4.exe)**　[GitHub 发布页](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)　Windows 10 1809+ · x64 · 约 169 MB
 
 非官方第三方桌面客户端。本仓库只发布编译好的可执行文件与文档，**不公开源代码**。
 
