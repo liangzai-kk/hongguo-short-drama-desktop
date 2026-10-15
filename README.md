@@ -2,7 +2,7 @@
 
 [![下载](https://img.shields.io/badge/下载-红果免费短剧.exe-FE3846?style=for-the-badge)](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)
 
-**[→ 下载最新版（国内加速）](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.8/hongguo-short-drama-0.1.8.exe)**　[GitHub 发布页](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)　Windows 10 1809+ · x64 · 约 169 MB
+**[→ 下载最新版（国内加速）](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.9/hongguo-short-drama-0.1.9.exe)**　[GitHub 发布页](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)　Windows 10 1809+ · x64 · 约 169 MB
 
 非官方第三方桌面客户端。本仓库只发布编译好的可执行文件与文档，**不公开源代码**。
 
@@ -56,10 +56,9 @@
 
 ## 更新记录
 
-### 0.1.8
+### 0.1.9
 
-- 修复「一点下载更新就变成重试、进度条一直不动」：这一次是真正的根因 —— 更新请求带着界面内部的对象交给后台，跨进程传不过去，请求在发出前就被丢掉，连日志都没留下。现在请求能正常发出，下载随即开始。
-- 这类「点了没反应」的失败以后会写进日志，不再静默。
+- 界面文字可以选中复制了：设置页的更新内容、评论正文、剧情简介这些都能选中并复制（原先整个界面都不给选）。按钮、导航这类骨架仍然不参与选中，拖窗口时不会把文案刷蓝。
 
 完整更新记录见 [CHANGELOG.md](CHANGELOG.md)。
 
