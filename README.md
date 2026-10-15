@@ -2,7 +2,7 @@
 
 [![下载](https://img.shields.io/badge/下载-红果免费短剧.exe-FE3846?style=for-the-badge)](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)
 
-**[→ 下载最新版（国内加速）](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.7/hongguo-short-drama-0.1.7.exe)**　[GitHub 发布页](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)　Windows 10 1809+ · x64 · 约 169 MB
+**[→ 下载最新版（国内加速）](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.8/hongguo-short-drama-0.1.8.exe)**　[GitHub 发布页](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)　Windows 10 1809+ · x64 · 约 169 MB
 
 非官方第三方桌面客户端。本仓库只发布编译好的可执行文件与文档，**不公开源代码**。
 
@@ -56,12 +56,10 @@
 
 ## 更新记录
 
-### 0.1.7
+### 0.1.8
 
-- 修复「点下载更新没反应、装的时候才发现不对」：某条加速线路把一页错误提示当成安装包回了过来，应用一秒就「下完」，装的时候才发现拿到的是个网页。现在下载会核对大小，只认真正的安装包。
-- 下载时显示真实进度：顶栏与设置页都会给出百分比。
-- 启动就有提示：有新版本时顶栏出现「新版本 x.y.z」，点一下就地下载、下好直接安装，不必自己去浏览器找。
-- 更新内容里不再夹带「下载」那一段（那是发布页上的东西，应用里点不了）。
+- 修复「一点下载更新就变成重试、进度条一直不动」：这一次是真正的根因 —— 更新请求带着界面内部的对象交给后台，跨进程传不过去，请求在发出前就被丢掉，连日志都没留下。现在请求能正常发出，下载随即开始。
+- 这类「点了没反应」的失败以后会写进日志，不再静默。
 
 完整更新记录见 [CHANGELOG.md](CHANGELOG.md)。
 
