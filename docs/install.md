@@ -15,7 +15,7 @@
 1. 下载安装包，两个渠道任选其一：
 
    - **国内加速下载**（推荐，国内网络可直连）：
-     [点击下载 红果免费短剧-Setup-0.1.6.exe](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.6/hongguo-short-drama-0.1.6.exe)
+     [点击下载 红果免费短剧-Setup-0.1.7.exe](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.7/hongguo-short-drama-0.1.7.exe)
    - [GitHub 发布页](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)：页面打不开或下载过慢时，改用上面的加速下载。
 
 2. 双击运行。
