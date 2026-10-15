@@ -2,7 +2,7 @@
 
 [![下载](https://img.shields.io/badge/下载-红果免费短剧.exe-FE3846?style=for-the-badge)](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)
 
-**[→ 下载最新版（国内加速）](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.9/hongguo-short-drama-0.1.9.exe)**　[GitHub 发布页](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)　Windows 10 1809+ · x64 · 约 169 MB
+**[→ 下载最新版（国内加速）](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.6/hongguo-short-drama-0.1.6.exe)**　[GitHub 发布页](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)　Windows 10 1809+ · x64 · 约 169 MB
 
 非官方第三方桌面客户端。本仓库只发布编译好的可执行文件与文档，**不公开源代码**。
 
@@ -56,9 +56,15 @@
 
 ## 更新记录
 
-### 0.1.9
+### 0.1.6
 
-- 界面文字可以选中复制了：设置页的更新内容、评论正文、剧情简介这些都能选中并复制（原先整个界面都不给选）。按钮、导航这类骨架仍然不参与选中，拖窗口时不会把文案刷蓝。
+- 新增更新提示弹窗：发现有新版本时弹一次窗口，里面写清「新版本是几号、你现在是几号、这次改了什么」，可以「立即更新」或「稍后」；下载过程带真实进度，下好直接安装。顶栏保留入口，随时能再打开。
+- 修复「点下载更新没反应、变成重试」：更新请求带着界面内部的对象交给后台，跨进程传不过去，请求在发出前就被丢掉（连日志都没留下）。现在请求能正常发出，下载随即开始。
+- 修复「安装包一秒就下完、装的时候才发现不对」：某条加速线路把一页错误提示当成安装包回了过来，现在下载会核对大小，只认真正的安装包。
+- 界面文字可以选中复制：更新内容、评论正文、剧情简介这些都能选中并复制；按钮、导航这类骨架仍不参与选中，拖窗口时不会把文案刷蓝。
+- 清晰度选过一次就记住：在播放页调到 1080P，下一集、下一部都按这个档位播，不用每集重选一遍；某一集没有这一档时，用这一集可用的最高档。
+- 没选过清晰度时默认用最高档（原先默认 720P）。
+- 切换清晰度之后，下一集按新档位重新准备；原先可能拿旧档的画面接上，看着像没生效。
 
 完整更新记录见 [CHANGELOG.md](CHANGELOG.md)。
 
