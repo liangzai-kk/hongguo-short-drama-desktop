@@ -48,6 +48,10 @@
 
 ![画质增强开启](assets/screenshots/enhance-on.png)
 
+同一帧同一处文字按原始像素截出的对比（上：增强关闭，下：增强开启）——笔画边缘从糊成一片变成根根分明：
+
+![超分前后局部对比](assets/screenshots/enhance-detail.png)
+
 面板在播放页右栏「画质」里，开关、超分档位、质量、输入分辨率、锐度都在这一处调：
 
 ![画质面板](assets/screenshots/quality.png)
