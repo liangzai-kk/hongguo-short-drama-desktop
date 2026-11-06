@@ -18,7 +18,17 @@
   </a>
 </p>
 
-<p align="center"><sub>第一个是加速镜像，两个链接是同一个安装包。</sub></p>
+<p align="center"><sub>国内直连 GitHub 很慢，下载请用下面的加速线路。</sub></p>
+
+## 下载
+
+| 线路 | 链接 |
+| --- | --- |
+| **加速下载（推荐）** | **[hongguo-short-drama-0.1.12.exe](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.12/hongguo-short-drama-0.1.12.exe)** |
+| 加速备用 | [hongguo-short-drama-0.1.12.exe](https://ghproxy.net/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.12/hongguo-short-drama-0.1.12.exe) |
+| GitHub 原链接 | [Releases v0.1.12](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest) |
+
+约 548 MB · Windows 10 1809+ x64。三条都是同一个安装包，前面的线路打不开再换下一条。
 
 ---
 
@@ -124,7 +134,7 @@
 
 ## 安装
 
-1. 点上面的「下载」拿到 `hongguo-short-drama-0.1.12.exe`（约 548 MB）。
+1. 用上面的[加速下载](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.12/hongguo-short-drama-0.1.12.exe)拿到 `hongguo-short-drama-0.1.12.exe`（约 548 MB）。
 2. 双击运行。Win10 / Win11 可能弹 SmartScreen，点「更多信息 → 仍要运行」。
 3. 安装目录可改（默认装当前用户目录，不需要管理员权限）。升级直接覆盖安装，播放记录与收藏都保留。
 
