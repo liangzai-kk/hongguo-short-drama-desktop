@@ -15,7 +15,7 @@
 1. 下载安装包，两个渠道任选其一：
 
    - **国内加速下载**（推荐，国内网络可直连）：
-     [点击下载 hongguo-short-drama-0.1.12.exe](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.12/hongguo-short-drama-0.1.12.exe)
+     [点击下载 hongguo-short-drama-0.1.13.exe](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.13/hongguo-short-drama-0.1.13.exe)
    - [GitHub 发布页](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest)：页面打不开或下载过慢时，改用上面的加速下载。
 
 2. 双击运行。
