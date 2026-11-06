@@ -175,29 +175,25 @@
 
 ## 八、界面
 
-![首页信息流](../assets/screenshots/home.png)
+![首页信息流](../assets/screenshots/home.jpg)
 
-![播放：弹幕与播放控制条](../assets/screenshots/player.png)
+![系列剧：同一系列各季归组](../assets/screenshots/seasons.jpg)
 
-![小窗：窗口收成一扇只装画面的窄窗](../assets/screenshots/pip.png)
+![评论：真实昵称与头像](../assets/screenshots/comments.jpg)
 
-![系列剧：同一系列各季归组](../assets/screenshots/seasons.png)
+![剧场：分类信息流](../assets/screenshots/theater.jpg)
 
-![评论：真实昵称与头像](../assets/screenshots/comments.png)
+![排行榜：一级 / 二级榜单](../assets/screenshots/rank.jpg)
 
-![剧场：分类信息流](../assets/screenshots/theater.png)
+![找剧：分类筛选](../assets/screenshots/filter.jpg)
 
-![排行榜：一级 / 二级榜单](../assets/screenshots/rank.png)
+![搜索：结果按系列归并](../assets/screenshots/search.jpg)
 
-![找剧：分类筛选](../assets/screenshots/filter.png)
+![设置](../assets/screenshots/settings.jpg)
 
-![搜索：结果按系列归并](../assets/screenshots/search.png)
+![画质增强：关闭](../assets/screenshots/enhance-off.jpg)
 
-![设置](../assets/screenshots/settings.png)
-
-![画质增强：关闭](../assets/screenshots/enhance-off.png)
-
-![画质增强：实时超分开启](../assets/screenshots/enhance-on.png)
+![画质增强：实时超分开启](../assets/screenshots/enhance-on.jpg)
 
 固定骨架：顶栏 56px + 左栏 72px + 中栏自适应 + 右栏 360px（可收起）。
 页间跳转只在中栏内发生，不整窗跳转、不新开窗口；面板弹出**不做遮罩**，
