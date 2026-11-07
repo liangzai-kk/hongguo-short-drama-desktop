@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.13/hongguo-short-drama-0.1.13.exe">
-    <img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v0.1.13-FE3846?style=for-the-badge" alt="下载 v0.1.13">
+  <a href="https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.14/hongguo-short-drama-0.1.14.exe">
+    <img src="https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v0.1.14-FE3846?style=for-the-badge" alt="下载 v0.1.14">
   </a>
   <a href="https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest">
     <img src="https://img.shields.io/badge/GitHub-%E5%8F%91%E5%B8%83%E9%A1%B5-181717?style=for-the-badge&logo=github" alt="GitHub 发布页">
@@ -24,9 +24,9 @@
 
 | 线路 | 链接 |
 | --- | --- |
-| **加速下载（推荐）** | **[hongguo-short-drama-0.1.13.exe](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.13/hongguo-short-drama-0.1.13.exe)** |
-| 加速备用 | [hongguo-short-drama-0.1.13.exe](https://ghproxy.net/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.13/hongguo-short-drama-0.1.13.exe) |
-| GitHub 原链接 | [Releases v0.1.13](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest) |
+| **加速下载（推荐）** | **[hongguo-short-drama-0.1.14.exe](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.14/hongguo-short-drama-0.1.14.exe)** |
+| 加速备用 | [hongguo-short-drama-0.1.14.exe](https://ghproxy.net/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.14/hongguo-short-drama-0.1.14.exe) |
+| GitHub 原链接 | [Releases v0.1.14](https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/latest) |
 
 约 548 MB · Windows 10 1809+ x64。三条都是同一个安装包，前面的线路打不开再换下一条。
 
@@ -134,7 +134,7 @@
 
 ## 安装
 
-1. 用上面的[加速下载](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.13/hongguo-short-drama-0.1.13.exe)拿到 `hongguo-short-drama-0.1.13.exe`（约 548 MB）。
+1. 用上面的[加速下载](https://gh-proxy.com/https://github.com/liangzai-kk/hongguo-short-drama-desktop/releases/download/v0.1.14/hongguo-short-drama-0.1.14.exe)拿到 `hongguo-short-drama-0.1.14.exe`（约 548 MB）。
 2. 双击运行。Win10 / Win11 可能弹 SmartScreen，点「更多信息 → 仍要运行」。
 3. 安装目录可改（默认装当前用户目录，不需要管理员权限）。升级直接覆盖安装，播放记录与收藏都保留。
 
@@ -143,6 +143,14 @@
 ---
 
 ## 更新记录
+
+### 0.1.14
+
+- 修复部分剧集整集黑屏、只有声音：这几部剧的最高档位是播放器解不出的新编码，现在能正常出画面，拖进度、续播都对得上。
+- 原生播放窗的选集网格每换一集就跳回顶部，现在停在原处、只换高亮。
+- 修复本机装过之后更新，安装向导又让人选「为谁安装」。
+- 原生播放窗播 1080P 更稳：解码不再单线程硬扛，掉帧与追帧卡顿明显减少，打开失败时也不再一路往下降清晰度。
+- 需要换格式才能播的剧，画质与其它剧一致；拖到任意位置都能很快出画面，不用等前面转完。
 
 ### 0.1.13
 
